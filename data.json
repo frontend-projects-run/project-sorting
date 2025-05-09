@@ -4,7 +4,7 @@
     "subtitle": "Смартфон",
     "name": "Iphone",
     "price": "3500",
-    "date": "2023-06-08 ",
+    "date": "2022-06-08 ",
     "category": "phones"
   },
   {
@@ -20,7 +20,7 @@
     "subtitle": "Смартфон",
     "name": "Apple",
     "price": "9500",
-    "date": "2023-08-08 ",
+    "date": "2024-08-08 ",
     "category": "phones"
   },
   {
@@ -33,10 +33,98 @@
   },
   {
     "id": 5,
-    "subtitle": "Смартфон",
+    "subtitle": "Планшет",
     "name": "Studio",
-    "price": "30500",
-    "date": "2025-08-09 ",
+    "price": "15500",
+    "date": "2022-08-09 ",
     "category": "tablets"
+  },
+  {
+    "id": 6,
+    "subtitle": "Планшет",
+    "name": "Lenovo",
+    "price": "17500",
+    "date": "2023-08-08 ",
+    "category": "tablets"
+  },
+  {
+    "id": 7,
+    "subtitle": "Планшет",
+    "name": "ACER",
+    "price": "22500",
+    "date": "2024-08-08 ",
+    "category": "tablets"
+  },
+  {
+    "id": 8,
+    "subtitle": "Планшет",
+    "name": "APPLE",
+    "price": "16500",
+    "date": "2025-08-08 ",
+    "category": "tablets"
+  },
+  {
+    "id": 9,
+    "subtitle": "Ноутбуки",
+    "name": "SAMSUNG",
+    "price": "65500",
+    "date": "2022-08-08 ",
+    "category": "laptops"
+  },
+  {
+    "id": 10,
+    "subtitle": "Ноутбуки",
+    "name": "ASUS",
+    "price": "67500",
+    "date": "2023-08-08 ",
+    "category": "laptops"
+  },
+  {
+    "id": 11,
+    "subtitle": "Ноутбуки",
+    "name": "HONOR",
+    "price": "80500",
+    "date": "2024-08-08 ",
+    "category": "laptops"
+  },
+  {
+    "id": 12,
+    "subtitle": "Ноутбуки",
+    "name": "Lenovo",
+    "price": "56500",
+    "date": "2025-08-08 ",
+    "category": "laptops"
+  },
+  {
+    "id": 13,
+    "subtitle": "Гарнитура",
+    "name": "A4Tech",
+    "price": "6500",
+    "date": "2022-08-08 ",
+    "category": "headset"
+  },
+  {
+    "id": 14,
+    "subtitle": "Гарнитура",
+    "name": "Logitech",
+    "price": "2500",
+    "date": "2023-08-08 ",
+    "category": "headset"
+  },
+  {
+    "id": 15,
+    "subtitle": "Гарнитура",
+    "name": "Xiaomi",
+    "price": "23500",
+    "date": "2024-08-08 ",
+    "category": "headset"
+  },
+  {
+    "id": 16,
+    "subtitle": "Гарнитура",
+    "name": "Apple",
+    "price": "33500",
+    "date": "2025-08-08 ",
+    "category": "headset"
   }
 ]

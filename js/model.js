@@ -78,4 +78,33 @@ export class Model {
       );
     }
   }
+
+  resetFilter(sortingElements) {
+    let { sortType, sortCategory, sortOrder } = sortingElements;
+    sortType.value = "price";
+    sortOrder.value = "asc";
+    sortCategory.value = "all";
+  }
+
+  updateUrl(sortingValue) {
+    let { sortType, sortCategory, sortOrder } = sortingValue;
+    const urlParams = new URLSearchParams();
+    urlParams.set("sortType", sortType);
+    urlParams.set("sortOrder", sortOrder);
+    urlParams.set("sortCategory", sortCategory);
+
+    window.history.replaceState(null, null, `?${urlParams.toString()}`);
+  }
+  updateFromUrl(sortingElements) {
+    let { sortType, sortCategory, sortOrder } = sortingElements;
+    const urlParams = new URLSearchParams(window.location.search);
+
+    const sortTypeValue = urlParams.get("sortType") || "price";
+    const sortOrderValue = urlParams.get("sortOrder") || "asc";
+    const sortCategoryValue = urlParams.get("sortCategory") || "all";
+
+    sortType.value = sortTypeValue;
+    sortOrder.value = sortOrderValue;
+    sortCategory.value = sortCategoryValue;
+  }
 }

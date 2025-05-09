@@ -7,6 +7,7 @@ export class View {
     sortTypeSelect: document.querySelector("#sortType"),
     sortOrderSelect: document.querySelector("#sortOrder"),
     filterInut: document.querySelector("#filterInut"),
+    form: document.querySelector("#form"),
   };
 
   renderProducts(arrData) {
@@ -31,6 +32,14 @@ export class View {
       sortType: this.elements.sortTypeSelect.value,
       sortOrder: this.elements.sortOrderSelect.value,
       sortCategory: this.elements.sortCategorySelect.value,
+    };
+  }
+
+  sortingElements() {
+    return {
+      sortType: this.elements.sortTypeSelect,
+      sortOrder: this.elements.sortOrderSelect,
+      sortCategory: this.elements.sortCategorySelect,
     };
   }
 }
