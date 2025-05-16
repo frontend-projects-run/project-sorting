@@ -2,11 +2,12 @@
 https://project-sorting-plum.vercel.app/
 
 
-> # -Установка зависимостей проекта
+> ### -Установка зависимостей проекта
 > ```
-> npm install```
-> 
->```
+> npm install
+> ```
+
+
 
 
 
